@@ -37,10 +37,10 @@ export function Navbar() {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         className={cn(
-          "flex w-full max-w-6xl items-center justify-between rounded-full px-3 py-2 transition-all duration-500 border border-white/10 bg-slate-950/80 shadow-2xl backdrop-blur-2xl",
+          "flex w-full max-w-6xl items-center justify-between rounded-full px-3 py-2 transition-all duration-500",
           scrolled
-            ? "bg-slate-950/90"
-            : "bg-slate-950/80"
+            ? "glass-strong"
+            : "glass border-white/10"
         )}
       >
         <Link
